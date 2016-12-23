@@ -1,6 +1,15 @@
 import React, { Component } from 'react';
 import { Grid, Navbar, Jumbotron, Button } from 'react-bootstrap';
-import DangerButton from './DangerButton'
+import DangerButton from './DangerButton';
+import Clock from './Clock';
+import Toggle from './Toggle';
+import LoginControl from './LoginControl';
+import Page from './Page';
+import NameForm from './NameForm';
+import EssayForm from './EssayForm';
+import FlavorForm from './FlavorForm';
+import Calculator from './Calculator';
+import Calculator2 from './TemperatureInput';
 class App extends Component {
   render() {
     return (
@@ -30,6 +39,15 @@ class App extends Component {
           </Grid>
         </Jumbotron>
         <DangerButton />
+        <Clock />
+        <Toggle />
+        <LoginControl />
+        <Page />
+        <NameForm />
+        <EssayForm />
+        <FlavorForm />
+        <Calculator />
+        <Calculator2 />
       </div>
     );
   }
